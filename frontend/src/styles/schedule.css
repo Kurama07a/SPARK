@@ -1,0 +1,15 @@
+#overview{
+    margin-bottom: 0vh;
+    text-decoration: underline;
+  }
+  #line{
+    margin-right: 2vw;
+    opacity: 0.2;
+  }
+  #sem{
+    text-align: left;
+    text-decoration-line: overline;
+    color: rgba(240, 255, 255, 0.632);
+    margin-top: 0.1vh;
+    margin-bottom: 0vh;
+  }

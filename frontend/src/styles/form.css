@@ -1,0 +1,73 @@
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 58vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border: 1px solid rgba(255, 255, 255, 0.153);
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.19);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-group{
+    width: 15vw;
+    border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccccccd6;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+  margin: 1vh;
+}
+.input-group:hover {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 8px 8px 10px #403d3d;
+               
+  }
+  .auth {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    cursor: pointer;
+    color: white;
+    padding: 1em 2em;
+    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s,
+      letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+    box-shadow: 8px 8px 8px #1c1c1c;
+    margin-top: 1vh;
+    margin-left: 28%;
+    
+  }
+  
+  .auth:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 8px 8px 10px #403d3d;
+               
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  h1{
+    color: azure;
+  }
+  #full-form{
+    color: rgba(240, 255, 255, 0.632);
+    margin-top: 0.1vh;
+    padding: 0px 2vh 1vh 2vh ;
+    text-align: center;
+    text-align-last: center;
+
+  }
+  p{
+    color: azure;
+  }

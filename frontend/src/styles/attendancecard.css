@@ -1,0 +1,108 @@
+.attendancecard {
+    width: 350px;
+    height: 150px;
+    background: #262626;
+    border-radius: 10px;
+    border: 1px solid #3F3F40;
+    margin-left: 0px;
+    margin-right: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+    transition: 150ms ease-in-out;
+  }
+  .attendancecard:hover{
+    background: #505050;;
+    cursor: pointer;
+  }
+.SubjectName{
+    max-width: 100%;
+    width: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: rgba(255, 255, 255, 0.81);
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 21px;
+    font-weight: 500;
+    pointer-events: none;
+    
+    
+}
+.cardholder{
+    display: flex;
+    flex-direction: row;
+}
+.progress-container {
+    
+    width: 15vw;
+    height: 1.5vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0.5vh;
+  }
+  
+  /* Progress bar */
+  .progress-bar {
+    height: 100%;
+    background-color: #071e71;
+    transition: width 0.5s ease-in-out;
+  }
+  .progress{
+    margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  
+  }
+  .content{
+    margin-left: 1vw;
+  }
+#overview{
+  margin-bottom: 0vh;
+}
+#line{
+  margin-right: 2vw;
+  opacity: 0.2;
+}
+.dashboard-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark and translucent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+/* Modal styles */
+.dashboard-modal {
+  background-color: rgba(43, 43, 43, 0.786);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   /* Adjust the width as needed */
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #ddd;
+}
+#sub_name{
+  color: azure;
+  
+}

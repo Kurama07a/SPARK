@@ -1,0 +1,61 @@
+/* CSS Styles for Schedule Viewer */
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #47454586;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    box-shadow: 3px 3px 5px #86818186;
+  }
+  
+  .schedule-row {
+    display: flex;
+  }
+  
+  .schedule-cell {
+    flex: 1;
+    
+    height: 8vh;
+    width: 8vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+  }
+  #content{
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+  }
+  #content:hover{
+    background-color: #414141df;
+    transform: scale(1.01);
+    border-radius: 5%;
+    box-shadow: 2px 2px 3px #8d8989;
+    
+  }
+  .empty {
+    background-color: #ffffff41;
+    font-weight: bold;
+  }
+  
+  .day-name {
+    background-color: #262626;
+    font-weight: bold;
+    color: rgb(200, 213, 213);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time {
+    background-color: #262626;
+    font-weight: bold;
+    color: rgb(200, 213, 213);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
